@@ -1,0 +1,367 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: arial, tahoma;
+  list-style: none;
+  background-color: rgb(157, 155, 155)cfc;
+}
+
+.carousel-indicators {
+  position: relative;
+  right: 0;
+  top: 222px;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+
+  /* margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%; */
+  list-style: none;
+}
+
+nav {
+  height: 42px;
+  background-color: #174973;
+}
+
+.crousalFlash {
+  height: 60px;
+  background-color: rgb(2, 12, 68);
+}
+
+.crousalFlash .flashContent {
+  margin-left: 80px;
+  margin-top: 4px;
+  font-size: medium;
+  padding-top: 4px;
+  margin-bottom: 0%;
+}
+
+.crousalFlash .flash {
+  color: #ebb038;
+
+
+}
+
+.crousalFlash .light {
+  color: #fbff00;
+  text-decoration: none;
+}
+
+.nav1 {
+  height: 42px;
+  background-color: #174973;
+  display: flex;
+}
+
+/* .back_video{
+  padding-top: 0%;
+  margin-top: 0%;
+}
+video {
+  object-fit: contain;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+#hero:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+} */
+/* #hero {
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+}
+.align-items-center {
+    align-items: center !important;
+}
+.d-flex {
+    display: flex !important;
+} */
+main {
+  height: 100px;
+  padding-top: 60px;
+  background-color: #042d51;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-size: 86% 100%;
+  background-image: url("https://www.isro.gov.in/media_isro/image/isrobannerLarge.png.webp");
+}
+
+.list-item {
+  float: left;
+  margin-left: 70px;
+}
+
+.list-item li {
+  float: left;
+  padding: 9px 6px;
+  font-size: 14.4px;
+  border-radius: 3px;
+  transition: all .7s ease-in-out;
+
+}
+
+.list-item li a {
+  color: #fcfcfc;
+  text-decoration: none;
+}
+
+.list-item li a:hover {
+  color: #d48e2c;
+}
+
+
+
+.list-item3 li a {
+  color: #070707;
+}
+
+.list-item3 li a:hover {
+  color: #d48e2c;
+}
+
+
+
+
+.list-item1 {
+  float: right;
+  margin-right: 100px;
+}
+
+.list-item1 li {
+  float: left;
+  padding: 13px 6px;
+  font-size: 12.8px;
+  border-radius: 3px;
+  transition: all .7s ease-in-out;
+
+}
+
+.list-item1 li a {
+  color: #fcfcfc;
+  text-decoration: none;
+}
+
+.list-item1 li a:hover {
+  color: #d48e2c;
+}
+
+.icon {
+  display: none;
+}
+
+.list-item2 {
+  float: left;
+  margin-left: 130px;
+}
+
+.list-item2 li {
+  float: left;
+  padding: 8px 9px;
+  font-size: 20px;
+  border-radius: 3px;
+  transition: all .7s ease-in-out;
+
+}
+
+.list-item2 li p {
+  color: #fcfcfc;
+}
+
+.list-item2 li p:hover {
+  color: #ffa221;
+}
+
+.toggle {
+  float: right;
+  margin: 20px;
+  color: #fd0f0f;
+  font-size: 30px;
+  border: 1px solid #f71010;
+  padding: 0px 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+
+.row {
+  display: flex;
+
+}
+
+.specials {
+  overflow: hidden;
+  background-color: #c9d8fa;
+  padding-top: 10px;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem !important;
+}
+
+.section {
+  padding: 47px 0;
+}
+
+.accordion-header {
+  margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "verdana", sans-serif;
+}
+
+.h4,
+h4 {
+  font-size: calc(1.275rem + 0.3vw);
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+user agent stylesheet h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.themed-grid-col {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: bold;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.accordion-item:first-of-type {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.accordion-item {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  text-decoration: none;
+}
+
+.accordion-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  width: 100%;
+  padding: 1rem 1.25rem;
+  font-size: 1rem;
+  color: #fff;
+  text-align: left;
+  background: linear-gradient(45deg, #1558ba 20%, #5e93e0 60%, #020c44);
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
+}
+
+.accordion-button::after {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  color: #fff;
+  background: linear-gradient(45deg, #1558ba 20%, #5e93e0 60%, #020c44);
+  content: "";
+  background-image: url('https://abadi.me.mtu.edu/img/arrow.svg');
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  transition: transform 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background: linear-gradient(45deg, #1558ba 20%, #5e93e0 60%, #020c44);
+  color: white;
+  text-decoration: none;
+}
+.themed-grid-col {
+  padding-top: 0.75rem;
+  padding-bottom: 2.75rem;
+  font-weight: bold;
+}
+@media (max-width: 986px) {
+  nav {
+    display: none;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .list-item {
+    display: none;
+  }
+
+  .list-item li {
+    display: none;
+  }
+}
